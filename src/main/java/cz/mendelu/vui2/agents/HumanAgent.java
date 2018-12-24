@@ -6,9 +6,9 @@ import greenfoot.Greenfoot;
 public class HumanAgent extends AbstractAgent {
 
     @Override
-    public Action doAction(boolean canMove, boolean dirty, boolean dock) {
+    public Action doAction(boolean cantMove, boolean dirty, boolean dock) {
         String key = Greenfoot.getKey();
-        if (!canMove) {
+        if (!cantMove) {
             if (key != null) {
                 switch (key) {
                     case "up":

@@ -14,9 +14,6 @@ public class ReactionAgent extends AbstractAgent {
 
     @Override
     public Action doAction(boolean cantMove, boolean dirty, boolean dock) {
-        System.out.println(this.direction);
-        System.out.println(this.orientation);
-        System.out.println("###############################################################");
         if (cantMove) {
             if (dirty) {
                 return Action.CLEAN;

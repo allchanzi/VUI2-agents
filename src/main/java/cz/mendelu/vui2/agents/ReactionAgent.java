@@ -4,8 +4,8 @@ import cz.mendelu.vui2.agents.greenfoot.AbstractAgent;
 
 public class ReactionAgent extends AbstractAgent {
 
-    public String orientation;
-    public String direction;
+    private String orientation;
+    private String direction;
 
     public ReactionAgent() {
         this.orientation = "N";
